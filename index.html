@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="stylesheet" href="webpack/css/vendors.css?18674b8bf0c">
+    <link rel="stylesheet" href="webpack/css/app.css?18674b8bf0c">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
@@ -76,7 +78,116 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+			<header class="header">
+                <div class="container"> 
+                    <div class="header__wrap">
+                        <div class="header__logo"><img class="header__img" src="./webpack/images/Logo-2ab029a4.svg" alt="logo"></div>
+                        <nav class="header__nav"> 
+                            <ul class="header__menu"> 
+                                <li class="header__menu-item"><a class="header__menu-link" href="#">Why Alivio</a></li>
+                                <li class="header__menu-item"><a class="header__menu-link" href="#">Solutions</a></li>
+                                <li class="header__menu-item"><a class="header__menu-link" href="#">Community</a></li>
+                                <li class="header__menu-item"><a class="header__menu-link" href="#">Pricing</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__actions"> <a class="header__login" href="#">Sign in</a><a class="btn header__btn" href="#">Start Trial</a></div>
+                    </div>
+                </div>
+            </header>
+			<section class="home"> 
+				<div class="home__headline"> 
+					<h1 class="title title--large title--accent home__title">Be aware, Manage well.</h1>
+					<p class="home__description">Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p><a class="btn btn--large home__btn" href="#">Find Your Way</a>
+				</div>
+			</section>
+			<section class="about"> 
+				<div class="container">
+					<div class="about__headline"> 
+						<div class="suptitle about__suptitle">How it works</div>
+						<div class="about__headline-wrap"> 
+							<h2 class="title title--accent about__title">Understand & Release the stress in 3 steps</h2>
+							<div class="about__description">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</div>
+						</div>
+					</div>
+					<div class="about__cards"> 
+						<div class="about__card-wrap">
+							<div class="card"> 
+								<div class="card__step">01</div>
+								<div class="card__title">Personalize</div>
+								<p class="card__description">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+								<div class="card__pic"> <img class="card__img" src="./webpack/images/card1-17ec3399.png" alt="card image"></div>
+							</div>
+						</div>
+						<div class="about__card-wrap">
+							<div class="card"> 
+								<div class="card__step">02</div>
+								<div class="card__title">Write &amp; Understand</div>
+								<p class="card__description">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
+								<div class="card__pic"> <img class="card__img" src="./webpack/images/card2-1e18e6f5.png" alt="card image"></div>
+							</div>
+						</div>
+						<div class="about__card-wrap">
+							<div class="card"> 
+								<div class="card__step">03</div>
+								<div class="card__title">Alivio!</div>
+								<p class="card__description">Now you are aware, and have a way to manage and overcome your own stress.What are you waiting for? Alivio today!</p>
+								<div class="card__pic"> <img class="card__img" src="./webpack/images/card3-02bb6169.png" alt="card image"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="story"> 
+				<div class="story__container"> 
+					<div class="story__headline"> 
+						<div class="title story__title">Let's hear about Kayla's success story</div>
+						<div class="story__text">See how well Alivio works in a real customer’s life. </div><a class="btn btn--large story__btn" href="#">Let’s get started</a>
+					</div>
+					<div class="story__video-wrap"> 
+						<video class="story__video video-js" controls preload="metadata" poster="./webpack/images/video-poster.png"> 
+							<source src="./webpack/images/video.mp4" type="video/mp4">
+						</video>
+						<div class="story__video-btn videoBtn-js"></div>
+					</div>
+				</div>
+			</section>
+			<section class="product"> 
+				<div class="container">
+					<div class="product__content"> 
+						<div class="product__photo"> <img class="product__img" src="./webpack/images/client-7e8904a3.png" alt="client photo"></div>
+						<div class="product__text"> 
+							<div class="suptitle product__suptitle">Our product</div>
+							<div class="title title--accent product__title">You tell us your stress, We make your diary</div>
+							<p class="product__description">Everyone experiences it, and in different ways. <br>Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p><a class="btn btn--large product__btn" href="#">Find Your Way</a>
+						</div>
+						<div class="product__card-wrap">
+							<div class="client-card"> 
+								<div class="client-card__heading">Customized For</div>
+								<div class="client-card__pic"> <img class="client-card__img" src="./webpack/images/client-small-fdddd7ab.png" alt="client photo"></div>
+								<div class="client-card__name">Mikayla</div>
+								<div class="client-card__title">Your custom contents</div>
+								<ol class="client-card__list"> 
+									<li class="client-card__item">Understand Your Stress  </li>
+									<li class="client-card__item">Anger Management</li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer class="footer"> 
+                <div class="container"> 
+                    <div class="footer__logo"> <img class="footer__img" src="./webpack/images/Logo-2ab029a4.svg" alt="logo"></div>
+                    <ul class="footer__menu">
+                        <li class="footer__menu-item"> <a class="footer__menu-link" href="#">Why Alivio</a></li>
+                        <li class="footer__menu-item"> <a class="footer__menu-link" href="#">Solutions</a></li>
+                        <li class="footer__menu-item"> <a class="footer__menu-link" href="#">Community</a></li>
+                        <li class="footer__menu-item"> <a class="footer__menu-link" href="#">Pricing</a></li>
+                    </ul>
+                </div>
+            </footer>
 		</div>
+		<script src="webpack/js/vendors.js?18674b8bf0c"></script>
+        <script src="webpack/js/app.js?18674b8bf0c"></script>
 </body>
 </html>
